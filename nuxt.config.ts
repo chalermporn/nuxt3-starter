@@ -1,13 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
   ],
   devtools: { enabled: true },
   devServer: {
     https: {
       key: 'localhost-key.pem',
-      cert: 'localhost.pem'
-    }
-  }
+      cert: 'localhost.pem',
+    },
+  },
 })
