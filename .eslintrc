@@ -1,10 +1,10 @@
 {
-    "root": true,
     "extends": [
-        "@antfu"
+        "@nuxtjs/eslint-config-typescript"
     ],
-    "parserOptions": {
-        "ecmaVersion": "latest",
-        "warnOnUnsupportedTypeScriptVersion": false
+    "rules": {
+        "@typescript-eslint/no-unused-vars": [
+            "off"
+        ]
     }
 }

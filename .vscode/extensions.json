@@ -6,6 +6,11 @@
         "github.copilot",
         "xabikos.javascriptsnippets",
         "pkief.material-icon-theme",
-        "zhuangtongfa.material-theme"
+        "zhuangtongfa.material-theme",
+        "vue.volar",
+        "bradlc.vscode-tailwindcss",
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "eamodio.gitlens"
     ]
 }

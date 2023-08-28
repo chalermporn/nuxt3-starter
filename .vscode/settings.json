@@ -4,4 +4,5 @@
         "source.fixAll.eslint": true,
         "source.fixAll.sortJSON": true
     },
+    "typescript.tsdk": "node_modules/typescript/lib",
 }

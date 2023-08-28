@@ -1,13 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
-    '@nuxtjs/eslint-module',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/eslint-module'
   ],
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   devServer: {
     https: {
       key: 'localhost-key.pem',
-      cert: 'localhost.pem',
-    },
-  },
+      cert: 'localhost.pem'
+    }
+  }
 })
