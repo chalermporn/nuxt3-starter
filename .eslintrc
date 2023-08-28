@@ -1,0 +1,14 @@
+{
+    "root": true,
+    "extends": [
+        "@nuxtjs/eslint-config-typescript"
+    ],
+    "parserOptions": {
+        "warnOnUnsupportedTypeScriptVersion": false
+    },
+    "rules": {
+        "@typescript-eslint/no-unused-vars": [
+            "off"
+        ]
+    }
+}
