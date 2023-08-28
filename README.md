@@ -60,4 +60,33 @@ pnpm run preview
 yarn preview
 ```
 
+Configulation HTTPS for nuxt
+
+```bash
+brew install mkcert
+brew install nss   
+mkcert localhost
+```
+
+```json
+// package.json
+"scripts": {
+    "dev": "nuxt dev --https --ssl-cert localhost.pem --ssl-key localhost-key.pem",
+}
+```
+
+```typescript
+// nuxt.config.ts
+export default defineNuxtConfig({
+  devtools: { enabled: true },
+  devServer: {
+    https: {
+      key: 'localhost-key.pem',
+      cert: 'localhost.pem'
+    }
+  },
+})
+
+```
+
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
