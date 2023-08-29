@@ -3,13 +3,13 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/devtools',
     '@nuxtjs/eslint-module',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
   ],
   devtools: { enabled: false },
   devServer: {
     https: {
       key: 'localhost-key.pem',
-      cert: 'localhost.pem'
-    }
-  }
+      cert: 'localhost.pem',
+    },
+  },
 })
