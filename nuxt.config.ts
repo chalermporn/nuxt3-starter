@@ -5,9 +5,6 @@ export default defineNuxtConfig({
     '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
   ],
-  css: [
-    'primevue/resources/themes/lara-light-blue/theme.css',
-  ],
   build: {
     transpile: ['primevue'],
   },
