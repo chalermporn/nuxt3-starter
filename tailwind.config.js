@@ -7,15 +7,8 @@ module.exports = {
     './plugins/**/*.{js,ts}',
     './nuxt.config.{js,ts}',
     './app.vue',
-  ],
-  safelist: [
-    {
-      pattern: /(bg|text|fill|text|border)-(primary|golden|danger|info|warning|blue-grey|grey)-(10|50|60)/,
-      variants: ['group-hover', 'hover', 'focus'],
-    },
-    'py-[4px]',
-    'py-[8px]',
-    'py-[16px]',
+    './index.html',
+    './node_modules/primevue/**/*.{vue,js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
