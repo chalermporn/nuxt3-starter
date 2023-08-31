@@ -1,7 +1,8 @@
 <template>
   <div>
-    <div class="text-red-400 font-bold text-center">
+    <div class="font-bold text-center text-red-400">
       Hello Nuxt Tailwindcss
+      <Button label="PrimeVue Button" severity="warning" rounded />
     </div>
     <NuxtWelcome />
   </div>
